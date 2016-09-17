@@ -1,25 +1,199 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lets_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-2e-57I">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登入 / 註冊 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qX2-eO-if7">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="Yzw-de-Uav"/>
+                                            <constraint firstAttribute="width" constant="109" id="c0T-Za-AUg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Slice" translatesAutoresizingMaskIntoConstraints="NO" id="7Gc-WU-Y2n">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="113" id="YSg-ZE-jll"/>
+                                            <constraint firstAttribute="height" constant="30" id="dHo-yc-mro"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95130389928817749" green="0.29142776131629944" blue="0.052076209336519241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="qX2-eO-if7" firstAttribute="leading" secondItem="ldh-2e-57I" secondAttribute="leading" constant="19" id="5Wg-Jf-p7X"/>
+                                    <constraint firstItem="7Gc-WU-Y2n" firstAttribute="top" secondItem="ldh-2e-57I" secondAttribute="top" constant="27" id="JUF-OW-zdh"/>
+                                    <constraint firstAttribute="height" constant="128" id="NYS-um-aon"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Gc-WU-Y2n" secondAttribute="trailing" constant="17" id="XjR-eZ-5Re"/>
+                                    <constraint firstItem="qX2-eO-if7" firstAttribute="top" secondItem="ldh-2e-57I" secondAttribute="top" constant="27" id="wFW-CX-yc2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DdN-qe-xCR" customClass="MaterialView" customModule="Lets_chat" customModuleProvider="target">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="xsM-Y4-sTg">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FB_icon" translatesAutoresizingMaskIntoConstraints="NO" id="QCb-U6-R8g">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="83" id="Q0J-tn-ygJ"/>
+                                                    <constraint firstAttribute="height" constant="85" id="Tmf-tq-m7m"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzF-dk-xrW" customClass="MaterialButton" customModule="Lets_chat" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.23529411764705882" green="0.4823529411764706" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="Facebook 登入">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fbBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CwE-Mo-3QT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="xsM-Y4-sTg" firstAttribute="centerX" secondItem="DdN-qe-xCR" secondAttribute="centerX" id="Hcq-Ft-Qu4"/>
+                                    <constraint firstItem="xsM-Y4-sTg" firstAttribute="leading" secondItem="DdN-qe-xCR" secondAttribute="leading" constant="20" id="IcV-e0-wwd"/>
+                                    <constraint firstItem="xsM-Y4-sTg" firstAttribute="top" secondItem="DdN-qe-xCR" secondAttribute="top" constant="10" id="bcW-5T-jM3"/>
+                                    <constraint firstItem="xsM-Y4-sTg" firstAttribute="centerY" secondItem="DdN-qe-xCR" secondAttribute="centerY" id="bjk-dG-Spp"/>
+                                    <constraint firstAttribute="height" constant="115" id="qAo-5U-eaF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4RH-Qa-gLf" customClass="MaterialView" customModule="Lets_chat" customModuleProvider="target">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email 登入 / 註冊 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="WJO-O8-ZQ7">
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="CFb-gv-mhE"/>
+                                            <constraint firstAttribute="width" constant="109" id="eVD-Ti-gGE"/>
+                                            <constraint firstAttribute="height" constant="25" id="ocG-uW-2Vc"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="qy7-8f-9fd"/>
+                                            <constraint firstAttribute="width" constant="156" id="uIh-Oi-BBG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="18"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="CFb-gv-mhE"/>
+                                                <exclude reference="eVD-Ti-gGE"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Myq-Kv-Rxq" customClass="MatetialTextField" customModule="Lets_chat" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.94085341691970825" green="0.94103407859802246" blue="0.9408232569694519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Mm1-01-b62"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pUM-sx-FMX" customClass="MatetialTextField" customModule="Lets_chat" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.94085341691970825" green="0.94103407859802246" blue="0.9408232569694519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="RrF-Os-2dJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCJ-vb-jk8" customClass="MaterialButton" customModule="Lets_chat" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.82111060619354248" green="0.13841624557971954" blue="0.19488272070884705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="YJ6-Mk-HZc"/>
+                                            <constraint firstAttribute="width" constant="276" id="dn0-AC-aKB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <state key="normal" title="Login / Sign up">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="WJO-O8-ZQ7" firstAttribute="leading" secondItem="4RH-Qa-gLf" secondAttribute="leading" constant="16" id="5iz-CV-vK2"/>
+                                    <constraint firstItem="UCJ-vb-jk8" firstAttribute="top" secondItem="pUM-sx-FMX" secondAttribute="bottom" constant="69" id="Be4-Li-Xq2"/>
+                                    <constraint firstItem="pUM-sx-FMX" firstAttribute="leading" secondItem="Myq-Kv-Rxq" secondAttribute="leading" id="LNt-K8-HGb"/>
+                                    <constraint firstItem="Myq-Kv-Rxq" firstAttribute="leading" secondItem="WJO-O8-ZQ7" secondAttribute="leading" id="MWf-8q-zYE"/>
+                                    <constraint firstItem="pUM-sx-FMX" firstAttribute="top" secondItem="Myq-Kv-Rxq" secondAttribute="bottom" constant="19" id="OyA-rS-Y5r"/>
+                                    <constraint firstAttribute="trailing" secondItem="Myq-Kv-Rxq" secondAttribute="trailing" constant="18" id="W3a-US-ULS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Myq-Kv-Rxq" secondAttribute="trailing" constant="20" id="Zqn-JO-PUk"/>
+                                    <constraint firstItem="pUM-sx-FMX" firstAttribute="top" secondItem="Myq-Kv-Rxq" secondAttribute="bottom" constant="19" id="d5T-Zv-JnR"/>
+                                    <constraint firstItem="pUM-sx-FMX" firstAttribute="trailing" secondItem="Myq-Kv-Rxq" secondAttribute="trailing" id="fcB-fI-j9V"/>
+                                    <constraint firstAttribute="height" constant="386" id="i8t-pd-skO"/>
+                                    <constraint firstItem="Myq-Kv-Rxq" firstAttribute="top" secondItem="WJO-O8-ZQ7" secondAttribute="bottom" constant="13" id="mW2-WL-SDR"/>
+                                    <constraint firstItem="WJO-O8-ZQ7" firstAttribute="top" secondItem="4RH-Qa-gLf" secondAttribute="top" constant="13" id="pEz-07-TrU"/>
+                                    <constraint firstItem="UCJ-vb-jk8" firstAttribute="centerX" secondItem="4RH-Qa-gLf" secondAttribute="centerX" id="qop-VW-61J"/>
+                                    <constraint firstAttribute="trailing" secondItem="pUM-sx-FMX" secondAttribute="trailing" constant="17" id="xZs-N7-Jwg"/>
+                                    <constraint firstAttribute="trailing" secondItem="pUM-sx-FMX" secondAttribute="trailing" constant="20" id="zky-4f-gwn"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="W3a-US-ULS"/>
+                                        <exclude reference="fcB-fI-j9V"/>
+                                        <exclude reference="xZs-N7-Jwg"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94085341691970825" green="0.94103407859802246" blue="0.9408232569694519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="3uj-IB-Ryo"/>
+                            <constraint firstItem="4RH-Qa-gLf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4WE-3t-CpS"/>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="7PP-2q-WVn"/>
+                            <constraint firstItem="ldh-2e-57I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8PF-E9-hhL"/>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9PW-nh-Z3N"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ldh-2e-57I" secondAttribute="trailing" id="9gn-EU-eI1"/>
+                            <constraint firstItem="4RH-Qa-gLf" firstAttribute="top" secondItem="DdN-qe-xCR" secondAttribute="bottom" constant="16" id="Okk-aP-c05"/>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="Q0z-de-azW"/>
+                            <constraint firstItem="ldh-2e-57I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Rwc-zS-jG1"/>
+                            <constraint firstItem="ldh-2e-57I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="T05-dF-qrt"/>
+                            <constraint firstItem="ldh-2e-57I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tuo-ut-DWM"/>
+                            <constraint firstItem="ldh-2e-57I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="W2l-08-nsF"/>
+                            <constraint firstAttribute="trailing" secondItem="ldh-2e-57I" secondAttribute="trailing" id="ekg-Es-TEb"/>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="63" id="lUf-we-0cy"/>
+                            <constraint firstAttribute="trailing" secondItem="ldh-2e-57I" secondAttribute="trailing" id="qae-Co-7Zz"/>
+                            <constraint firstItem="4RH-Qa-gLf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yTY-Gh-FAD"/>
+                            <constraint firstItem="DdN-qe-xCR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yna-Ni-Px4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8PF-E9-hhL"/>
+                                <exclude reference="9gn-EU-eI1"/>
+                                <exclude reference="Tuo-ut-DWM"/>
+                                <exclude reference="qae-Co-7Zz"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="62" y="499"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FB_icon" width="231" height="250"/>
+        <image name="Slice" width="1278" height="331"/>
+    </resources>
 </document>

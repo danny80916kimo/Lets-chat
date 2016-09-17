@@ -1,0 +1,6 @@
+framework module Pods_Lets_chat {
+  umbrella header "Pods-Lets-chat-umbrella.h"
+
+  export *
+  module * { export * }
+}

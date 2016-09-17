@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1426EB2F1D8064740080EC2F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426EB2E1D8064740080EC2F /* MaterialView.swift */; };
+		1426EB321D808BE70080EC2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426EB311D808BE70080EC2F /* Constants.swift */; };
+		1426EB341D80A40B0080EC2F /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426EB331D80A40B0080EC2F /* MaterialButton.swift */; };
 		1438F8991D802DB20082BC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1438F8981D802DB20082BC00 /* AppDelegate.swift */; };
 		1438F89B1D802DB20082BC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1438F89A1D802DB20082BC00 /* ViewController.swift */; };
 		1438F89E1D802DB20082BC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1438F89C1D802DB20082BC00 /* Main.storyboard */; };
 		1438F8A01D802DB20082BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1438F89F1D802DB20082BC00 /* Assets.xcassets */; };
 		1438F8A31D802DB20082BC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1438F8A11D802DB20082BC00 /* LaunchScreen.storyboard */; };
+		1438F8B21D802E890082BC00 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1438F8AE1D802E890082BC00 /* NotoSans-Bold.ttf */; };
+		1438F8B31D802E890082BC00 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1438F8AF1D802E890082BC00 /* NotoSans-BoldItalic.ttf */; };
+		1438F8B41D802E890082BC00 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1438F8B01D802E890082BC00 /* NotoSans-Italic.ttf */; };
+		1438F8B51D802E890082BC00 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1438F8B11D802E890082BC00 /* NotoSans-Regular.ttf */; };
+		149E373A1D81E32E00CA05FF /* MatetialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E37391D81E32E00CA05FF /* MatetialTextField.swift */; };
+		149E373F1D81E89500CA05FF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E373C1D81E89500CA05FF /* Bolts.framework */; };
+		149E37401D81E89500CA05FF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E373D1D81E89500CA05FF /* FBSDKCoreKit.framework */; };
+		149E37411D81E89500CA05FF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E373E1D81E89500CA05FF /* FBSDKLoginKit.framework */; };
+		149E37431D81EB0A00CA05FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 149E37421D81EB0A00CA05FF /* GoogleService-Info.plist */; };
+		149E37471D8859E700CA05FF /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E37461D8859E700CA05FF /* DataServices.swift */; };
+		14C7AB811D8B1F510045F33F /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C7AB7C1D8B1F510045F33F /* FirebaseAnalytics.framework */; };
+		14C7AB821D8B1F510045F33F /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C7AB7D1D8B1F510045F33F /* FirebaseInstanceID.framework */; };
+		14C7AB831D8B1F510045F33F /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C7AB7E1D8B1F510045F33F /* GoogleInterchangeUtilities.framework */; };
+		14C7AB841D8B1F510045F33F /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C7AB7F1D8B1F510045F33F /* GoogleSymbolUtilities.framework */; };
+		14C7AB851D8B1F510045F33F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C7AB801D8B1F510045F33F /* GoogleUtilities.framework */; };
+		9B33E24023223CBE64C1A186 /* Pods_Lets_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC74EF614CC17F2ADA7E55D /* Pods_Lets_chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1426EB2E1D8064740080EC2F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		1426EB311D808BE70080EC2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1426EB331D80A40B0080EC2F /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		1438F8951D802DB20082BC00 /* Lets-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1438F8981D802DB20082BC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1438F89A1D802DB20082BC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,26 @@
 		1438F89F1D802DB20082BC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1438F8A21D802DB20082BC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1438F8A41D802DB20082BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1438F8AE1D802E890082BC00 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1438F8AF1D802E890082BC00 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1438F8B01D802E890082BC00 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1438F8B11D802E890082BC00 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1493B9FC1D8B158100ADCCFE /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Pods/Firebase/Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		149E37391D81E32E00CA05FF /* MatetialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatetialTextField.swift; sourceTree = "<group>"; };
+		149E373C1D81E89500CA05FF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		149E373D1D81E89500CA05FF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		149E373E1D81E89500CA05FF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		149E37421D81EB0A00CA05FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		149E37461D8859E700CA05FF /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		14C7AB7C1D8B1F510045F33F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		14C7AB7D1D8B1F510045F33F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		14C7AB7E1D8B1F510045F33F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		14C7AB7F1D8B1F510045F33F /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		14C7AB801D8B1F510045F33F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		14FA79B51D8D3B8200C8D68B /* Lets-chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lets-chat.entitlements"; sourceTree = "<group>"; };
+		54547F4B8EABCD60DAD6BAFD /* Pods-Lets-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets-chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lets-chat/Pods-Lets-chat.release.xcconfig"; sourceTree = "<group>"; };
+		6AC74EF614CC17F2ADA7E55D /* Pods_Lets_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lets_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ED9FE1F59273249407ECAD /* Pods-Lets-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets-chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lets-chat/Pods-Lets-chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C7AB811D8B1F510045F33F /* FirebaseAnalytics.framework in Frameworks */,
+				149E373F1D81E89500CA05FF /* Bolts.framework in Frameworks */,
+				14C7AB821D8B1F510045F33F /* FirebaseInstanceID.framework in Frameworks */,
+				14C7AB841D8B1F510045F33F /* GoogleSymbolUtilities.framework in Frameworks */,
+				14C7AB831D8B1F510045F33F /* GoogleInterchangeUtilities.framework in Frameworks */,
+				149E37401D81E89500CA05FF /* FBSDKCoreKit.framework in Frameworks */,
+				14C7AB851D8B1F510045F33F /* GoogleUtilities.framework in Frameworks */,
+				149E37411D81E89500CA05FF /* FBSDKLoginKit.framework in Frameworks */,
+				9B33E24023223CBE64C1A186 /* Pods_Lets_chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1426EB301D808BBC0080EC2F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1426EB311D808BE70080EC2F /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		1438F88C1D802DB20082BC00 = {
 			isa = PBXGroup;
 			children = (
 				1438F8971D802DB20082BC00 /* Lets-chat */,
 				1438F8961D802DB20082BC00 /* Products */,
+				98E9A7A6E6D7CB8616820C90 /* Pods */,
+				1A6ABA87B3212D63F44DEC41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +115,15 @@
 		1438F8971D802DB20082BC00 /* Lets-chat */ = {
 			isa = PBXGroup;
 			children = (
+				14FA79B51D8D3B8200C8D68B /* Lets-chat.entitlements */,
+				149E37451D8859C200CA05FF /* Sevices */,
+				149E37421D81EB0A00CA05FF /* GoogleService-Info.plist */,
+				149E373B1D81E87A00CA05FF /* Frameworks */,
+				1426EB301D808BBC0080EC2F /* Util */,
+				1438F8AD1D802E410082BC00 /* Resources */,
+				1438F8AC1D802E3B0082BC00 /* Model */,
+				1438F8AB1D802E2B0082BC00 /* View */,
+				1438F8AA1D802E1A0082BC00 /* Controller */,
 				1438F8981D802DB20082BC00 /* AppDelegate.swift */,
 				1438F89A1D802DB20082BC00 /* ViewController.swift */,
 				1438F89C1D802DB20082BC00 /* Main.storyboard */,
@@ -64,6 +134,82 @@
 			path = "Lets-chat";
 			sourceTree = "<group>";
 		};
+		1438F8AA1D802E1A0082BC00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1438F8AB1D802E2B0082BC00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1426EB2E1D8064740080EC2F /* MaterialView.swift */,
+				1426EB331D80A40B0080EC2F /* MaterialButton.swift */,
+				149E37391D81E32E00CA05FF /* MatetialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1438F8AC1D802E3B0082BC00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1438F8AD1D802E410082BC00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1438F8AE1D802E890082BC00 /* NotoSans-Bold.ttf */,
+				1438F8AF1D802E890082BC00 /* NotoSans-BoldItalic.ttf */,
+				1438F8B01D802E890082BC00 /* NotoSans-Italic.ttf */,
+				1438F8B11D802E890082BC00 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		149E373B1D81E87A00CA05FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C7AB7C1D8B1F510045F33F /* FirebaseAnalytics.framework */,
+				14C7AB7D1D8B1F510045F33F /* FirebaseInstanceID.framework */,
+				14C7AB7E1D8B1F510045F33F /* GoogleInterchangeUtilities.framework */,
+				14C7AB7F1D8B1F510045F33F /* GoogleSymbolUtilities.framework */,
+				14C7AB801D8B1F510045F33F /* GoogleUtilities.framework */,
+				149E373C1D81E89500CA05FF /* Bolts.framework */,
+				149E373D1D81E89500CA05FF /* FBSDKCoreKit.framework */,
+				149E373E1D81E89500CA05FF /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		149E37451D8859C200CA05FF /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				149E37461D8859E700CA05FF /* DataServices.swift */,
+			);
+			name = Sevices;
+			sourceTree = "<group>";
+		};
+		1A6ABA87B3212D63F44DEC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1493B9FC1D8B158100ADCCFE /* Firebase.h */,
+				6AC74EF614CC17F2ADA7E55D /* Pods_Lets_chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98E9A7A6E6D7CB8616820C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7ED9FE1F59273249407ECAD /* Pods-Lets-chat.debug.xcconfig */,
+				54547F4B8EABCD60DAD6BAFD /* Pods-Lets-chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1438F8A71D802DB20082BC00 /* Build configuration list for PBXNativeTarget "Lets-chat" */;
 			buildPhases = (
+				6A0A53BACC2DD885C8B5FE97 /* [CP] Check Pods Manifest.lock */,
 				1438F8911D802DB20082BC00 /* Sources */,
 				1438F8921D802DB20082BC00 /* Frameworks */,
 				1438F8931D802DB20082BC00 /* Resources */,
+				AD85FC87167909F312F989CE /* [CP] Embed Pods Frameworks */,
+				0DF20F72F6A73BF984C23E27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +240,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = DaGin;
 				TargetAttributes = {
 					1438F8941D802DB20082BC00 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EX9Z9PUK4G;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,21 +278,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1438F8B21D802E890082BC00 /* NotoSans-Bold.ttf in Resources */,
+				149E37431D81EB0A00CA05FF /* GoogleService-Info.plist in Resources */,
 				1438F8A31D802DB20082BC00 /* LaunchScreen.storyboard in Resources */,
+				1438F8B31D802E890082BC00 /* NotoSans-BoldItalic.ttf in Resources */,
+				1438F8B41D802E890082BC00 /* NotoSans-Italic.ttf in Resources */,
 				1438F8A01D802DB20082BC00 /* Assets.xcassets in Resources */,
 				1438F89E1D802DB20082BC00 /* Main.storyboard in Resources */,
+				1438F8B51D802E890082BC00 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF20F72F6A73BF984C23E27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets-chat/Pods-Lets-chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0A53BACC2DD885C8B5FE97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD85FC87167909F312F989CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets-chat/Pods-Lets-chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1438F8911D802DB20082BC00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149E373A1D81E32E00CA05FF /* MatetialTextField.swift in Sources */,
+				149E37471D8859E700CA05FF /* DataServices.swift in Sources */,
+				1426EB2F1D8064740080EC2F /* MaterialView.swift in Sources */,
 				1438F89B1D802DB20082BC00 /* ViewController.swift in Sources */,
 				1438F8991D802DB20082BC00 /* AppDelegate.swift in Sources */,
+				1426EB321D808BE70080EC2F /* Constants.swift in Sources */,
+				1426EB341D80A40B0080EC2F /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +390,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -199,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -222,8 +438,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,9 +457,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,23 +468,49 @@
 		};
 		1438F8A81D802DB20082BC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7ED9FE1F59273249407ECAD /* Pods-Lets-chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lets-chat/Lets-chat.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lets-chat",
+					"$(PROJECT_DIR)/Lets-chat/Analytics",
+				);
 				INFOPLIST_FILE = "Lets-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dagindesign.Lets-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		1438F8A91D802DB20082BC00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54547F4B8EABCD60DAD6BAFD /* Pods-Lets-chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lets-chat/Lets-chat.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lets-chat",
+					"$(PROJECT_DIR)/Lets-chat/Analytics",
+				);
 				INFOPLIST_FILE = "Lets-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dagindesign.Lets-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -288,6 +533,7 @@
 				1438F8A91D802DB20082BC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
